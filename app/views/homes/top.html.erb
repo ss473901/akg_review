@@ -1,0 +1,22 @@
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-10">
+          <div>
+            <p class="is-size-4 has-text-weight-bold has-text-left">ASIAN</p>
+            <p class="is-size-4 has-text-weight-bold has-text-left">KUNG-FU</p>
+            <p class="is-size-4 has-text-weight-bold has-text-left">GENERATION</p>
+          </div>
+          <div  class="img">
+            <%= image_tag 'AKG-image.png', size: '300x300' %>
+          </div>
+          <br>
+          <div class="columns is-centered">
+            <div class="column is-3">
+              <%= link_to "ログイン", new_user_session_path, class: "button is-fullwidth" %>
+              <br>
+              <%= link_to "新規登録", new_user_registration_path, class: "button is-fullwidth" %>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
