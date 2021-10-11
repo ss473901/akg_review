@@ -22,6 +22,12 @@
               </div>
             </div>
             <footer class="card-footer">
+              <%= link_to album_path(album), class:"button card-footer-item" do %>
+                レビューを書く
+              <% end %>
+              <%= link_to album_reviews_path(album), class:"button card-footer-item" do %>
+                レビューを見る
+              <% end %>
             </footer>
           </div>
         <% end %>

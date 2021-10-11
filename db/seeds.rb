@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Album.create(name: "崩壊アンプリファー")
+Album.create(name: "崩壊アンプリファー", image: File.open("./app/assets/images/AKG-image.png"))
 Album.create(name: "君繋ファイブエム")
 Album.create(name: "ソルファ")
 Album.create(name: "ファンクラブ")
